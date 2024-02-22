@@ -1,1 +1,1 @@
-Generated audios could be found in AudioSamples.
+Generated audios and their corresponding ground truth audios are provided.
