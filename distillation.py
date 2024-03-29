@@ -95,9 +95,9 @@ def distillation(mixTraining=params['distillWithHybridPrecision']):
                     ).to(device)
     
     maximunEnergy=torch.sqrt(torch.tensor(params['melBands']*32768.0))
-    NFE=None
+    
     while True:
-        
+        NFE=None
         tqdmLoader=tqdm(trainLoader,desc=f'distill Epoch: {nowEpoch}, starting step={nowStep}')
         for (audios,mels) in tqdmLoader:
                 
