@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from params import params
 from modules import AntiAliasingSnake,ResLayer,Snake,UpSampler,DownSampler
 from torch.nn.utils import weight_norm,remove_weight_norm
-    
+     
 class Velocity(nn.Module):
     
     def timeEmbedding(self,t):
