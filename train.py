@@ -8,7 +8,7 @@ import os
 from tqdm import tqdm,trange
 import matplotlib.pyplot as plt
 import numpy as np  
-
+ 
 from params import params
 from dataset import AudioMelSet
 from models import Velocity
