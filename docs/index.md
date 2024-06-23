@@ -17,6 +17,8 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .row {
     flex-direction: row;
@@ -80,28 +82,28 @@ audio {
                 </audio>
             </div>
         </div>
-        <div class="audio-container">
-            <div class="audio-item">
+        <div class="flex-container row flex1">
+            <div class="flex-container flex1">
                 <audio controls>
-                    <source src="0-WaveODE (Ours).wav" type="audio/wav">
+                    <source src="0-WaveODE (ours).wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
-            <div class="audio-item">
+            <div class="flex-container flex1">
                 <audio controls>
-                    <source src="1-WaveODE (Ours).wav" type="audio/wav">
+                    <source src="1-WaveODE (ours).wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
-            <div class="audio-item">
+            <div class="flex-container flex1">
                 <audio controls>
-                    <source src="2-WaveODE (Ours).wav" type="audio/wav">
+                    <source src="2-WaveODE (ours).wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
-            <div class="audio-item">
+            <div class="flex-container flex1">
                 <audio controls>
-                    <source src="3-WaveODE (Ours).wav" type="audio/wav">
+                    <source src="3-WaveODE (ours).wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
