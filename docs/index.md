@@ -15,7 +15,6 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
 <style>
 .flex-container {
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
