@@ -27,10 +27,10 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
     flex-direction: column;
 }
 .flex1 {
-    flex: 1;
+    flex: 2;
 }
 .flex2 {
-    flex: 5;
+    flex: 9;
 }
 audio {
     height: 40px;
