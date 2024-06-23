@@ -103,28 +103,22 @@ body {
             { name: 'Audio 3', src: 'audio3.mp3' },
             // Add more audio objects as needed
         ];
-
         const buttonGrid = document.getElementById('buttonGrid');
-
         audios.forEach((audio, index) => {
             const buttonItem = document.createElement('div');
             buttonItem.className = 'button-item';
-            
             const button = document.createElement('button');
             button.className = 'button';
             button.innerText = `Play ${audio.name}`;
             button.onclick = () => playAudio(index);
-
             const audioElement = document.createElement('audio');
             audioElement.id = `audio${index}`;
             audioElement.src = audio.src;
-
             buttonItem.appendChild(button);
             buttonItem.appendChild(document.createElement('br'));
             buttonItem.appendChild(audioElement);
             buttonGrid.appendChild(buttonItem);
         });
-
         function playAudio(index) {
             const audio = document.getElementById(`audio${index}`);
             audio.play();
