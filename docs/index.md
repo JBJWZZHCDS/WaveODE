@@ -25,16 +25,58 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
   min-width: 50px;
   max-width: 50px;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: #45a049;
+}
 </style>
 
 <div class="audio-container">
-  <div class="audio-item">
+  <div class="container">
     <h3>Groundtruth</h3>
-    <audio controls>
+    <button class="button" onclick="playAudio()">Play Audio</button>
+        <audio id="audio" src="0-Groundtruth.wav"></audio>
+<!--     <audio controls>
       <source src="0-Groundtruth.wav" type="audio/wav">
       Your browser does not support the audio element.
-    </audio>
+    </audio> -->
   </div>
+  <script>
+        function playAudio() {
+            var audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
   <div class="audio-item">
     <h3>WaveODE (Ours)</h3>
     <audio controls>
