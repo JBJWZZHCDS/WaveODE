@@ -21,8 +21,8 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
 .audio-item {
   flex: 1;
   margin: 0px;
-  min-width: 50px;
-  max-width: 50px;
+  min-width: 100px;
+  max-width: 200px;
 }
 audio {
     width: 200px;
