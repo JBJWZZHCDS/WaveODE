@@ -38,15 +38,15 @@ audio {
 
 <div class="split-container">
     <div class="left-pane">
-        <h3></h3>
-        <h3>Groundtruth</h3>
-        <h3>WaveODE (Ours)</h3>
-        <h3>Diffwave</h3>
-        <h3>FastDiff</h3>
-        <h3>FreGrad</h3>
-        <h3>HifiGAN</h3>
-        <h3>PriorGrad</h3>
-        <h3>WaveGlow</h3>
+        <div class="audio-container"></div>
+        <div class="audio-container"><h3>Groundtruth</h3></div>
+        <div class="audio-container"><h3>WaveODE (Ours)</h3></div>
+        <div class="audio-container"><h3>Diffwave</h3></div>
+        <div class="audio-container"><h3>FastDiff</h3></div>
+        <div class="audio-container"><h3>FreGrad</h3></div>
+        <div class="audio-container"><h3>HifiGAN</h3></div>
+        <div class="audio-container"><h3>PriorGrad</h3></div>
+        <div class="audio-container"><h3>WaveGlow</h3></div>    
     </div>
     <div class="right-pane">
         <div class="audio-container">
