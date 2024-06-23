@@ -30,7 +30,7 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
     flex: 1;
 }
 .flex2 {
-    flex: 2;
+    flex: 3;
 }
 audio {
     width: 150px;
@@ -104,6 +104,162 @@ audio {
             <div class="flex-container flex1">
                 <audio controls>
                     <source src="3-WaveODE (ours).wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="flex-container row flex1">
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="0-Diffwave.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="1-Diffwave.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="2-Diffwave.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="3-Diffwave.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="flex-container row flex1">
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="0-FastDiff.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="1-FastDiff.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="2-FastDiff.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="3-FastDiff.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="flex-container row flex1">
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="0-FreGrad.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="1-FreGrad.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="2-FreGrad.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="3-FreGrad.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="flex-container row flex1">
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="0-HifiGAN.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="1-HifiGAN.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="2-HifiGAN.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="3-HifiGAN.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="flex-container row flex1">
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="0-PriorGrad.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="1-PriorGrad.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="2-PriorGrad.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="3-PriorGrad.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="flex-container row flex1">
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="0-WaveGlow.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="1-WaveGlow.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="2-WaveGlow.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="flex-container flex1">
+                <audio controls>
+                    <source src="3-WaveGlow.wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
