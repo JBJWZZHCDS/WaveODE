@@ -37,7 +37,7 @@ audio {
     width: 150px;
 }
 .size {
-    height: 42px;
+    height: 40px;
     width: 150px;
 }
 </style>
