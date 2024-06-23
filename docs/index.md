@@ -36,7 +36,7 @@ body {
     height: 100vh;
     margin: 0;
 }
-.container {
+/* .container {
     text-align: center;
     background: white;
     padding: 20px;
@@ -58,7 +58,7 @@ body {
 }
 .button:hover {
     background-color: #45a049;
-}
+} */
 .container {
             text-align: center;
             background: white;
