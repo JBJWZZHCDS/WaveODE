@@ -13,21 +13,83 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
 # Audio Samples
 
 <style>
-.audio-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+
+.split-container {
+    display: flex;
+}
+
+.left-pane, .right-pane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-pane {
+    flex: 1;
+}
+
+.right-pane {
+    flex: 2;
 }
 .audio-item {
-  flex: 1;
-  margin: 0px;
-  min-width: 100px;
-  max-width: 200px;
+    flex: 1;
 }
 audio {
     width: 150px;
 }
 </style>
+
+
+<div class="split-container">
+    <div class="left-pane">
+        <h2>Left Pane</h2>
+        <p>This is the left pane content.</p>
+    </div>
+    <div class="right-pane">
+        <h2>Right Pane</h2>
+        <p>This is the right pane content.</p>
+    </div>
+</div>
+
+<div class="grid-container">
+    <div class="left-pane">
+        <h2>Left Pane</h2>
+        <p>This is the left pane content.</p>
+    </div>
+    <div class="right-pane">
+        <div class="audio-container">
+<!--   <h4>Groundtruth</h4> -->
+  <div class="audio-item">
+    <h3>Male Speech</h3>
+    <audio controls>
+      <source src="0-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Drum</h3>
+    <audio controls>
+      <source src="1-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Song</h3>
+    <audio controls>
+      <source src="2-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Female Speech</h3>
+    <audio controls>
+      <source src="3-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+    </div>
+</div>
 
 <div class="audio-container">
 <!--   <h4>Groundtruth</h4> -->
