@@ -1,1 +1,5 @@
+title: WaveODE
+description: An efficient vocoder based on probability flow equation. 
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-cayman
