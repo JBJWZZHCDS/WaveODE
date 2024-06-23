@@ -49,29 +49,31 @@ audio {
     </div>
     <div class="flex-container column flex1">
         <div class="flex-container row flex1">
+            <div class="flex-container flex1"><h3>Male Speech</h3></div>
+            <div class="flex-container flex1"><h3>Drum</h3></div>
+            <div class="flex-container flex1"><h3>Song</h3></div>
+            <div class="flex-container flex1"><h3>Female Speech</h3></div>
+        </div>
+        <div class="flex-container row flex1">
             <div class="flex-container flex1">
-                <h3>Male Speech</h3>
                 <audio controls>
                     <source src="0-Groundtruth.wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
             <div class="flex-container flex1">
-                <h3>Drum</h3>
                 <audio controls>
                     <source src="1-Groundtruth.wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
             <div class="flex-container flex1">
-                <h3>Song</h3>
                 <audio controls>
                     <source src="2-Groundtruth.wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
             <div class="flex-container flex1">
-                <h3>Female Speech</h3>
                 <audio controls>
                     <source src="3-Groundtruth.wav" type="audio/wav">
                     Your browser does not support the audio element.
