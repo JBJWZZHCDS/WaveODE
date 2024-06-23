@@ -59,7 +59,77 @@ body {
 .button:hover {
     background-color: #45a049;
 }
+.container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .button-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .button-item {
+            margin: 10px;
+            text-align: center;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
 </style>
+
+<div class="container">
+        <h1>Audio Playback Grid</h1>
+        <div class="button-grid" id="buttonGrid"></div>
+    </div>
+    <script>
+        const audios = [
+            { name: 'Audio 1', src: 'audio1.mp3' },
+            { name: 'Audio 2', src: 'audio2.mp3' },
+            { name: 'Audio 3', src: 'audio3.mp3' },
+            // Add more audio objects as needed
+        ];
+
+        const buttonGrid = document.getElementById('buttonGrid');
+
+        audios.forEach((audio, index) => {
+            const buttonItem = document.createElement('div');
+            buttonItem.className = 'button-item';
+            
+            const button = document.createElement('button');
+            button.className = 'button';
+            button.innerText = `Play ${audio.name}`;
+            button.onclick = () => playAudio(index);
+
+            const audioElement = document.createElement('audio');
+            audioElement.id = `audio${index}`;
+            audioElement.src = audio.src;
+
+            buttonItem.appendChild(button);
+            buttonItem.appendChild(document.createElement('br'));
+            buttonItem.appendChild(audioElement);
+            buttonGrid.appendChild(buttonItem);
+        });
+
+        function playAudio(index) {
+            const audio = document.getElementById(`audio${index}`);
+            audio.play();
+        }
+    </script>
 
 <div class="audio-container">
     <h3>Groundtruth</h3>
