@@ -6,4 +6,4 @@ Probability flow-based models for image and audio synthesis, such as denoising d
 
 # Model
 
-![Model](https://github.com/JBJWZZHCDS/WaveOD/docs/model_newnew.png)
+![Model](./model_newnew.png)
