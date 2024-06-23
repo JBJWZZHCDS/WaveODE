@@ -7,3 +7,6 @@ Probability flow-based models for image and audio synthesis, such as denoising d
 # Model
 
 ![Model](./model_newnew.png)
+
+# Audio Samples
+
