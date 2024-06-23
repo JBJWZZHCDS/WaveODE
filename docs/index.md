@@ -27,7 +27,7 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
 }
 </style>
 <div class="audio-container">
-  <h3>Groundtruth</h3>
+<!--   <h3>Groundtruth</h3> -->
   <div class="audio-item">
     <h3>Male Speech</h3>
     <audio controls>
@@ -36,21 +36,21 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
     </audio>
   </div>
   <div class="audio-item">
-    <h3>Male Speech</h3>
+    <h3>Drum</h3>
     <audio controls>
       <source src="1-Groundtruth.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
   <div class="audio-item">
-    <h3>Male Speech</h3>
+    <h3>Song</h3>
     <audio controls>
       <source src="2-Groundtruth.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
   <div class="audio-item">
-    <h3>Male Speech</h3>
+    <h3>Female Speech</h3>
     <audio controls>
       <source src="3-Groundtruth.wav" type="audio/wav">
       Your browser does not support the audio element.
