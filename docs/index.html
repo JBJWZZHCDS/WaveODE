@@ -1,1 +1,27 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Test Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Test Page</h1>
+        <p>Click the button below to play the test audio.</p>
+        <audio id="audioPlayer" controls>
+            <source src="test-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button onclick="playAudio()">Play Audio</button>
+    </div>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById('audioPlayer');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
