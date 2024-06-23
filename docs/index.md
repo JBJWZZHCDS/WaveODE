@@ -18,12 +18,14 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
 .audio-item {
   flex: 1;
   margin: 0px;
   min-width: 50px;
   max-width: 50px;
+}
+audio {
+    width: 200px;
 }
 </style>
 <div class="audio-container">
