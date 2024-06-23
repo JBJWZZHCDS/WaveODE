@@ -28,6 +28,39 @@ audio {
     width: 100px;
 }
 </style>
+
+<div class="audio-container">
+<!--   <h3>Groundtruth</h3> -->
+  <div class="audio-item">
+    <h3>Male Speech</h3>
+    <audio controls>
+      <source src="0-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Drum</h3>
+    <audio controls>
+      <source src="1-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Song</h3>
+    <audio controls>
+      <source src="2-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Female Speech</h3>
+    <audio controls>
+      <source src="3-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
 <div class="audio-container">
   <h3>Groundtruth</h3>
   <div class="audio-item">
@@ -59,6 +92,8 @@ audio {
     </audio>
   </div>
 </div>
+
+
 <div class="audio-container">
   <div class="audio-item">
     <h3>WaveODE (Ours)</h3>
