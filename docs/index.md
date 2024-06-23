@@ -25,11 +25,11 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
   max-width: 200px;
 }
 audio {
-    width: 200px;
+    width: 100px;
 }
 </style>
 <div class="audio-container">
-<!--   <h3>Groundtruth</h3> -->
+  <h3>Groundtruth</h3>
   <div class="audio-item">
     <h3>Male Speech</h3>
     <audio controls>
