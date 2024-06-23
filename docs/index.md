@@ -33,7 +33,11 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
     flex: 4;
 }
 audio {
-    height: 45px;
+    height: 44px;
+    width: 150px;
+}
+.size {
+    height: 44px;
     width: 150px;
 }
 </style>
@@ -52,10 +56,10 @@ audio {
     </div>
     <div class="flex-container column flex2">
         <div class="flex-container row flex1">
-            <div class="flex-container flex1"><h3>Male Speech</h3></div>
-            <div class="flex-container flex1"><h3>Drum</h3></div>
-            <div class="flex-container flex1"><h3>Song</h3></div>
-            <div class="flex-container flex1"><h3>Female Speech</h3></div>
+            <div class="flex-container size"><h3>Male Speech</h3></div>
+            <div class="flex-container size"><h3>Drum</h3></div>
+            <div class="flex-container size"><h3>Song</h3></div>
+            <div class="flex-container size"><h3>Female Speech</h3></div>
         </div>
         <div class="flex-container row flex1">
             <div class="flex-container flex1">
