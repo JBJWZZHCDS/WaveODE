@@ -38,7 +38,7 @@ audio {
 </style>
 
 <div class="flex-container row">
-    <div class="flex-container column flex2">
+    <div class="flex-container column flex1">
         <div class="flex-container flex1"></div>
         <div class="flex-container flex1"><h3>Groundtruth</h3></div>
         <div class="flex-container flex1"><h3>WaveODE (Ours)</h3></div>
@@ -49,7 +49,7 @@ audio {
         <div class="flex-container flex1"><h3>PriorGrad</h3></div>
         <div class="flex-container flex1"><h3>WaveGlow</h3></div>    
     </div>
-    <div class="flex-container column flex1">
+    <div class="flex-container column flex2">
         <div class="flex-container row flex1">
             <div class="flex-container flex1"><h3>Male Speech</h3></div>
             <div class="flex-container flex1"><h3>Drum</h3></div>
