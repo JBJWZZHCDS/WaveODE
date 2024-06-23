@@ -25,12 +25,12 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
   max-width: 200px;
 }
 audio {
-    width: 100px;
+    width: 80px;
 }
 </style>
 
 <div class="audio-container">
-<!--   <h3>Groundtruth</h3> -->
+  <h4>Groundtruth</h4>
   <div class="audio-item">
     <h3>Male Speech</h3>
     <audio controls>
@@ -62,32 +62,28 @@ audio {
 </div>
 
 <div class="audio-container">
-  <h3>Groundtruth</h3>
+  <h3>WaveODE (Ours)</h3>
   <div class="audio-item">
-    <h3>Male Speech</h3>
     <audio controls>
-      <source src="0-Groundtruth.wav" type="audio/wav">
+      <source src="0-WaveODE (Ours).wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
   <div class="audio-item">
-    <h3>Drum</h3>
     <audio controls>
-      <source src="1-Groundtruth.wav" type="audio/wav">
+      <source src="1-WaveODE (Ours).wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
   <div class="audio-item">
-    <h3>Song</h3>
     <audio controls>
-      <source src="2-Groundtruth.wav" type="audio/wav">
+      <source src="2-WaveODE (Ours).wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
   <div class="audio-item">
-    <h3>Female Speech</h3>
     <audio controls>
-      <source src="3-Groundtruth.wav" type="audio/wav">
+      <source src="3-WaveODE (Ours).wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
