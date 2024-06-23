@@ -20,121 +20,51 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
 }
 
 .audio-item {
-  flex: 0.2;
+  flex: 1;
   margin: 0px;
   min-width: 50px;
   max-width: 50px;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-}
-/* .container {
-    text-align: center;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-.button:hover {
-    background-color: #45a049;
-} */
-.container {
-            text-align: center;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .button-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .button-item {
-            margin: 10px;
-            text-align: center;
-        }
-        .button {
-            background-color: #4CAF50;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-        .button:hover {
-            background-color: #45a049;
-        }
 </style>
-
-<div class="container">
-        <h1>Audio Playback Grid</h1>
-        <div class="button-grid" id="buttonGrid"></div>
-    </div>
-    <script>
-        const audios = [
-            { name: 'Audio 1', src: 'audio1.mp3' },
-            { name: 'Audio 2', src: 'audio2.mp3' },
-            { name: 'Audio 3', src: 'audio3.mp3' },
-            // Add more audio objects as needed
-        ];
-        const buttonGrid = document.getElementById('buttonGrid');
-        audios.forEach((audio, index) => {
-            const buttonItem = document.createElement('div');
-            buttonItem.className = 'button-item';
-            const button = document.createElement('button');
-            button.className = 'button';
-            button.innerText = `Play ${audio.name}`;
-            button.onclick = () => playAudio(index);
-            const audioElement = document.createElement('audio');
-            audioElement.id = `audio${index}`;
-            audioElement.src = audio.src;
-            buttonItem.appendChild(button);
-            buttonItem.appendChild(document.createElement('br'));
-            buttonItem.appendChild(audioElement);
-            buttonGrid.appendChild(buttonItem);
-        });
-        function playAudio(index) {
-            const audio = document.getElementById(`audio${index}`);
-            audio.play();
-        }
-    </script>
-
 <div class="audio-container">
-    <h3>Groundtruth</h3>
-    <button class="button" onclick="playAudio()"></button>
-        <audio id="audio" src="0-Groundtruth.wav"></audio>
-  <script>
-        function playAudio() {
-            var audio = document.getElementById('audio');
-            audio.play();
-        }
-  </script>
+  <h3>Groundtruth</h3>
+  <div class="audio-item">
+    <h3>Male Speech</h3>
+    <audio controls>
+      <source src="0-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Male Speech</h3>
+    <audio controls>
+      <source src="1-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Male Speech</h3>
+    <audio controls>
+      <source src="2-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Male Speech</h3>
+    <audio controls>
+      <source src="3-Groundtruth.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+<div class="audio-container">
+  <div class="audio-item">
+    <h3>WaveODE (Ours)</h3>
+    <audio controls>
+      <source src="0-WaveODE (Ours).wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
   <div class="audio-item">
     <h3>WaveODE (Ours)</h3>
     <audio controls>
