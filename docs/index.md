@@ -39,7 +39,7 @@ audio {
 
 <div class="flex-container row">
     <div class="flex-container column flex1">
-        <div class="flex-container flex1"></div>
+        <div class="flex-container flex1"><h3></h3></div>
         <div class="flex-container flex1"><h3>Groundtruth</h3></div>
         <div class="flex-container flex1"><h3>WaveODE (Ours)</h3></div>
         <div class="flex-container flex1"><h3>Diffwave</h3></div>
@@ -85,25 +85,25 @@ audio {
         <div class="flex-container row flex1">
             <div class="flex-container flex1">
                 <audio controls>
-                    <source src="0-WaveODE (ours).wav" type="audio/wav">
+                    <source src="0-WaveODE (Ours).wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
             <div class="flex-container flex1">
                 <audio controls>
-                    <source src="1-WaveODE (ours).wav" type="audio/wav">
+                    <source src="1-WaveODE (Ours).wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
             <div class="flex-container flex1">
                 <audio controls>
-                    <source src="2-WaveODE (ours).wav" type="audio/wav">
+                    <source src="2-WaveODE (Ours).wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
             <div class="flex-container flex1">
                 <audio controls>
-                    <source src="3-WaveODE (ours).wav" type="audio/wav">
+                    <source src="3-WaveODE (Ours).wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
