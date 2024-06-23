@@ -25,7 +25,7 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
   max-width: 200px;
 }
 audio {
-    width: 80px;
+    width: 150px;
 }
 </style>
 
