@@ -18,7 +18,7 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 5px;
+    margin: 2px;
 }
 .row {
     flex-direction: row;
@@ -33,11 +33,11 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
     flex: 4;
 }
 audio {
-    height: 40px;
+    height: 42px;
     width: 150px;
 }
 .size {
-    height: 40px;
+    height: 42px;
     width: 150px;
 }
 </style>
