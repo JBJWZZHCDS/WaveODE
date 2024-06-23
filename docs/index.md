@@ -8,5 +8,38 @@ Probability flow-based models for image and audio synthesis, such as denoising d
 
 ![Model](./model_newnew.png)
 
+Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, kernel width, dilation, padding). A layer takes same padding if the value for padding is omitted. In each ResBlock the channel size remains unchanged.
+
 # Audio Samples
 
+<style>
+.audio-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.audio-item {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+  max-width: 300px;
+}
+</style>
+
+<div class="audio-container">
+  <div class="audio-item">
+    <h3>Audio 1</h3>
+    <audio controls>
+      <source src="0-Diffwave.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="audio-item">
+    <h3>Audio 2</h3>
+    <audio controls>
+      <source src="0-FastDiff.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
