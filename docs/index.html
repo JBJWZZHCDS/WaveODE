@@ -7,21 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="banner">
+        <h1 class="project-name">Project Name</h1>
+    </div>
     <div class="container">
-        <h1>Audio Test Page</h1>
-        <p>Click the button below to play the test audio.</p>
+        <h1>Welcome to the Project</h1>
+        <p>This is the project description.</p>
         <audio id="audioPlayer" controls>
             <source src="0-Diffwave.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
-        <button onclick="playAudio()">Play Audio</button>
     </div>
-
-    <script>
-        function playAudio() {
-            var audio = document.getElementById('audioPlayer');
-            audio.play();
-        }
-    </script>
 </body>
 </html>
