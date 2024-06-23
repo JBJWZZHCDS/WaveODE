@@ -40,7 +40,7 @@ audio {
 
 <div class="flex-container row">
     <div class="flex-container column flex1">
-        <div class="flex-container flex1"><h3></h3></div>
+        <div class="flex-container flex1"><h3>Model</h3></div>
         <div class="flex-container flex1"><h3>Groundtruth</h3></div>
         <div class="flex-container flex1"><h3>WaveODE (Ours)</h3></div>
         <div class="flex-container flex1"><h3>Diffwave</h3></div>
