@@ -31,14 +31,14 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
   <div class="audio-item">
     <h3>Groundtruth</h3>
     <audio controls>
-      <source src="0-Diffwave.wav" type="audio/wav">
+      <source src="0-Groundtruth.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
   <div class="audio-item">
     <h3>WaveODE (Ours)</h3>
     <audio controls>
-      <source src="0-Diffwave.wav" type="audio/wav">
+      <source src="0-WaveODE (Ours).wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
@@ -59,28 +59,28 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
   <div class="audio-item">
     <h3>FreGrad</h3>
     <audio controls>
-      <source src="0-FastDiff.wav" type="audio/wav">
+      <source src="0-FreGrad.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
   <div class="audio-item">
     <h3>HifiGAN</h3>
     <audio controls>
-      <source src="0-FastDiff.wav" type="audio/wav">
+      <source src="0-HifiGAN.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
   <div class="audio-item">
     <h3>PriorGrad</h3>
     <audio controls>
-      <source src="0-FastDiff.wav" type="audio/wav">
+      <source src="0-PriorGrad.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
   <div class="audio-item">
     <h3>WaveGlow</h3>
     <audio controls>
-      <source src="0-FastDiff.wav" type="audio/wav">
+      <source src="0-WaveGlow.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
   </div>
