@@ -30,7 +30,7 @@ audio {
 </style>
 
 <div class="audio-container">
-  <h4>Groundtruth</h4>
+<!--   <h4>Groundtruth</h4> -->
   <div class="audio-item">
     <h3>Male Speech</h3>
     <audio controls>
