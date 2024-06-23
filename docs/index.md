@@ -62,21 +62,15 @@ body {
 </style>
 
 <div class="audio-container">
-  <div class="container">
     <h3>Groundtruth</h3>
-    <button class="button" onclick="playAudio()">Play Audio</button>
+    <button class="button" onclick="playAudio()"></button>
         <audio id="audio" src="0-Groundtruth.wav"></audio>
-<!--     <audio controls>
-      <source src="0-Groundtruth.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio> -->
-  </div>
   <script>
         function playAudio() {
             var audio = document.getElementById('audio');
             audio.play();
         }
-    </script>
+  </script>
   <div class="audio-item">
     <h3>WaveODE (Ours)</h3>
     <audio controls>
