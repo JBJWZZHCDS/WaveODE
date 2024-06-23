@@ -25,7 +25,7 @@ Values in parentheses of Conv1d and ConvTranspose1d refer to (output channel, ke
     flex: 1;
 }
 .right-pane {
-    flex: 2;
+    flex: 4;
 }
 .audio-item {
     flex: 1;
@@ -37,172 +37,47 @@ audio {
 
 
 <div class="split-container">
-<div class="left-pane">
-    <h3></h3>
-    <h3>Groundtruth</h3>
-    <h3>WaveODE (Ours)</h3>
-    <h3>Diffwave</h3>
-    <h3>FastDiff</h3>
-    <h3>FreGrad</h3>
-    <h3>HifiGAN</h3>
-    <h3>PriorGrad</h3>
-    <h3>WaveGlow</h3>
-</div>
-<div class="right-pane">
-<div class="audio-item">
-<h3>Male Speech</h3>
-<audio controls>
-<source src="0-Groundtruth.wav" type="audio/wav">
-Your browser does not support the audio element.
-</audio>
-</div>
-<div class="audio-item">
-<h3>Drum</h3>
-<audio controls>
-<source src="1-Groundtruth.wav" type="audio/wav">
-Your browser does not support the audio element.
-</audio>
-</div>
-<div class="audio-item">
-<h3>Song</h3>
-<audio controls>
-<source src="2-Groundtruth.wav" type="audio/wav">
-Your browser does not support the audio element.
-</audio>
-</div>
-<div class="audio-item">
-<h3>Female Speech</h3>
-<audio controls>
-<source src="3-Groundtruth.wav" type="audio/wav">
-Your browser does not support the audio element.
-</audio>
-</div>
-</div>
-</div>
-
-    <div class="right-pane">
-        <div class="audio-container">Groundtruth
-  
-</div>
+    <div class="left-pane">
+        <h3></h3>
+        <h3>Groundtruth</h3>
+        <h3>WaveODE (Ours)</h3>
+        <h3>Diffwave</h3>
+        <h3>FastDiff</h3>
+        <h3>FreGrad</h3>
+        <h3>HifiGAN</h3>
+        <h3>PriorGrad</h3>
+        <h3>WaveGlow</h3>
     </div>
-</div>
-
-<div class="audio-container">
-<!--   <h4>Groundtruth</h4> -->
-  <div class="audio-item">
-    <h3>Male Speech</h3>
-    <audio controls>
-      <source src="0-Groundtruth.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>Drum</h3>
-    <audio controls>
-      <source src="1-Groundtruth.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>Song</h3>
-    <audio controls>
-      <source src="2-Groundtruth.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>Female Speech</h3>
-    <audio controls>
-      <source src="3-Groundtruth.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-</div>
-
-<div class="audio-container">
-  <h3>WaveODE (Ours)</h3>
-  <div class="audio-item">
-    <audio controls>
-      <source src="0-WaveODE (Ours).wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <audio controls>
-      <source src="1-WaveODE (Ours).wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <audio controls>
-      <source src="2-WaveODE (Ours).wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <audio controls>
-      <source src="3-WaveODE (Ours).wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-</div>
-
-
-<div class="audio-container">
-  <div class="audio-item">
-    <h3>WaveODE (Ours)</h3>
-    <audio controls>
-      <source src="0-WaveODE (Ours).wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>WaveODE (Ours)</h3>
-    <audio controls>
-      <source src="0-WaveODE (Ours).wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>DiffWave</h3>
-    <audio controls>
-      <source src="0-Diffwave.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>FastDiff</h3>
-    <audio controls>
-      <source src="0-FastDiff.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>FreGrad</h3>
-    <audio controls>
-      <source src="0-FreGrad.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>HifiGAN</h3>
-    <audio controls>
-      <source src="0-HifiGAN.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>PriorGrad</h3>
-    <audio controls>
-      <source src="0-PriorGrad.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <div class="audio-item">
-    <h3>WaveGlow</h3>
-    <audio controls>
-      <source src="0-WaveGlow.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
+    <div class="right-pane">
+        <div class="audio-container">
+            <div class="audio-item">
+                <h3>Male Speech</h3>
+                <audio controls>
+                    <source src="0-Groundtruth.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="audio-item">
+                <h3>Drum</h3>
+                <audio controls>
+                    <source src="1-Groundtruth.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="audio-item">
+                <h3>Song</h3>
+                <audio controls>
+                    <source src="2-Groundtruth.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="audio-item">
+                <h3>Female Speech</h3>
+                <audio controls>
+                    <source src="3-Groundtruth.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
 </div>
