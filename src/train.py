@@ -5,9 +5,9 @@ import torchaudio
 import os
 from tqdm import tqdm
 
-from src.dataset import AudioMelSet
-from src.models import Velocity, getSTFTLoss
-from src.params import params
+from dataset import AudioMelSet
+from models import Velocity, getSTFTLoss
+from params import params
 
 
 def train(mixTraining = params["trainWithHybridPrecision"]):
@@ -60,7 +60,7 @@ def train(mixTraining = params["trainWithHybridPrecision"]):
             path = path + "_" + str(nowStep)
         else:
             path = path[:pos] + "_" + str(nowStep)
-        os.makedirs(path, exist_ok=True)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
         torch.save(
             {
                 "velocity": velocity.state_dict(),
@@ -177,7 +177,7 @@ def train(mixTraining = params["trainWithHybridPrecision"]):
                         path = path + "_" + str(nowStep)
                     else:
                         path = path[:pos] + "_" + str(nowStep)
-                    os.makedirs(path, exist_ok=True)
+                    os.makedirs(os.path.dirname(path), exist_ok=True)
                     torch.save(
                         {
                             "velocity": velocity.state_dict(),
@@ -200,4 +200,4 @@ def train(mixTraining = params["trainWithHybridPrecision"]):
 
 
 if __name__ == "__main__":
-    train(args)
+    train()
