@@ -384,7 +384,7 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
     </tr>
   </tbody>
   <tbody>
-    <tr><td colspan="8">Bass (out of distribution)</td></tr>
+    <tr><td colspan="8">Bass 1 (out of distribution)</td></tr>
   </tbody>
   <tbody>
     <tr>
@@ -409,6 +409,35 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/FreGrad/A%20Classic%20Education%20-%20NightOwl.wav"></audio>
       </td><td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/FastDiff/A%20Classic%20Education%20-%20NightOwl.wav"></audio>
+      </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr><td colspan="8">Bass 2 (out of distribution)</td></tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td align="center">
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
+      </td>
+      <td align="center">
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
+      </td>
+      <td align="center">
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
+      </td>
+      <td align="center">
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
+      </td>
+      <td align="center">
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/DiffWave/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
+      </td>
+      <td align="center">
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/PriorGrad/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
+      </td><td align="center">
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/FreGrad/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
+      </td><td align="center">
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/FastDiff/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
       </td>
     </tr>
   </tbody>
