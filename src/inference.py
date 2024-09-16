@@ -6,7 +6,6 @@ import torch.nn.functional as F
 import torchaudio
 import os
 from tqdm import tqdm, trange
-import matplotlib.pyplot as plt
 import numpy as np
 
 from params import params
