@@ -23,7 +23,7 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
       </td>
       <td align="center"><b>WaveODE<br>1 step</b><br>
       </td>
-      <td align="center"><b>Hifi-GAN V1<br>1 step</b><br>
+      <td align="center"><b>Hifi-GAN<br>V1 1 step</b><br>
       </td>
       <td align="center"><b>Diffwave<br>6 steps</b><br>
       </td>
