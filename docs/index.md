@@ -44,10 +44,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/1089_134686_000007_000005.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1089_134686_000007_000005.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1089_134686_000007_000005.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1089_134686_000007_000005.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1089_134686_000007_000005.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/1089_134686_000007_000005.wav"></audio>
@@ -73,10 +73,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/1089_134686_000024_000007.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1089_134686_000024_000007.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1089_134686_000024_000007.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1089_134686_000024_000007.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1089_134686_000024_000007.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/1089_134686_000024_000007.wav"></audio>
@@ -102,10 +102,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/1188_133604_000011_000003.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1188_133604_000011_000003.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1188_133604_000011_000003.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1188_133604_000011_000003.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1188_133604_000011_000003.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/1188_133604_000011_000003.wav"></audio>
@@ -131,10 +131,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/1188_133604_000018_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1188_133604_000018_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1188_133604_000018_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1188_133604_000018_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1188_133604_000018_000000.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/1188_133604_000018_000000.wav"></audio>
@@ -160,10 +160,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/1320_122612_000013_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1320_122612_000013_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1320_122612_000013_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1320_122612_000013_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1320_122612_000013_000000.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/1320_122612_000013_000000.wav"></audio>
@@ -189,10 +189,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/121_127105_000014_000001.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/121_127105_000014_000001.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/121_127105_000014_000001.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/121_127105_000014_000001.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/121_127105_000014_000001.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/121_127105_000014_000001.wav"></audio>
@@ -218,10 +218,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/121_127105_000040_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/121_127105_000040_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/121_127105_000040_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/121_127105_000040_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/121_127105_000040_000000.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/121_127105_000040_000000.wav"></audio>
@@ -247,10 +247,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/237_126133_000033_000001.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/237_126133_000033_000001.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/237_126133_000033_000001.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/237_126133_000033_000001.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/237_126133_000033_000001.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/237_126133_000033_000001.wav"></audio>
@@ -276,10 +276,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/237_134493_000003_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/237_134493_000003_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/237_134493_000003_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/237_134493_000003_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/237_134493_000003_000000.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/237_134493_000003_000000.wav"></audio>
@@ -305,10 +305,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/1284_1181_000045_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1284_1181_000045_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1284_1181_000045_000000.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/1284_1181_000045_000000.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/1284_1181_000045_000000.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/1284_1181_000045_000000.wav"></audio>
@@ -334,10 +334,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/Al%20James%20-%20Schoolboy%20Facination.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/Al%20James%20-%20Schoolboy%20Facination.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/Al%20James%20-%20Schoolboy%20Facination.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/Al%20James%20-%20Schoolboy%20Facination.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/Al%20James%20-%20Schoolboy%20Facination.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/Al%20James%20-%20Schoolboy%20Facination.wav"></audio>
@@ -363,10 +363,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/Alexander%20Ross%20-%20Goodbye%20Bolero.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/Alexander%20Ross%20-%20Goodbye%20Bolero.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/Alexander%20Ross%20-%20Goodbye%20Bolero.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/Alexander%20Ross%20-%20Goodbye%20Bolero.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/Alexander%20Ross%20-%20Goodbye%20Bolero.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/Alexander%20Ross%20-%20Goodbye%20Bolero.wav"></audio>
@@ -392,10 +392,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/A%20Classic%20Education%20-%20NightOwl.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/A%20Classic%20Education%20-%20NightOwl.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/A%20Classic%20Education%20-%20NightOwl.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/A%20Classic%20Education%20-%20NightOwl.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/A%20Classic%20Education%20-%20NightOwl.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/A%20Classic%20Education%20-%20NightOwl.wav"></audio>
@@ -421,10 +421,10 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/GT/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
       </td>
       <td align="center">
-        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE6/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
+        <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/WaveODE1/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
       </td>
       <td align="center">
         <audio id="player" controls="" style="width:100px;" preload="auto"><source src="audio/HifiGAN/AM%20Contra%20-%20Heart%20Peripheral.wav"></audio>
