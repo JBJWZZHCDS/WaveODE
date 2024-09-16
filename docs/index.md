@@ -19,19 +19,19 @@ For detailed parameter settings please refer to `WaveODE/src/params.py`.
     <tr>
       <td align="center"><b>Groundtruth</b><br>
       </td>
-      <td align="center"><b>WaveODE (6 step)</b><br>
+      <td align="center"><b>WaveODE 6 step</b><br>
       </td>
-      <td align="center"><b>WaveODE (1 step)</b><br>
+      <td align="center"><b>WaveODE 1 step</b><br>
       </td>
-      <td align="center"><b>Hifi-GAN</b><br>
+      <td align="center"><b>Hifi-GAN V1 1 step</b><br>
       </td>
-      <td align="center"><b>Diffwave</b><br>
+      <td align="center"><b>Diffwave 6 steps</b><br>
       </td>
-      <td align="center"><b>PriorGrad</b><br>
+      <td align="center"><b>PriorGrad 6 steps</b><br>
       </td>
-      <td align="center"><b>FreGrad</b><br>
+      <td align="center"><b>FreGrad 6 steps</b><br>
       </td>
-      <td align="center"><b>FastDiff</b><br>
+      <td align="center"><b>FastDiff 6 steps</b><br>
       </td>
     </tr>
   </thead>
