@@ -80,7 +80,7 @@ def distillation(mixTraining=params["distillWithHybridPrecision"]):
             path = path + "_" + str(nowStep)
         else:
             path = path[:pos] + "_" + str(nowStep)
-        os.makedirs(path, exist_ok=True)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
         torch.save(
             {
                 "velocity": velocity.state_dict(),
@@ -223,7 +223,7 @@ def distillation(mixTraining=params["distillWithHybridPrecision"]):
                         path = path + "_" + str(nowStep)
                     else:
                         path = path[:pos] + "_" + str(nowStep)
-                    os.makedirs(path, exist_ok=True)
+                    os.makedirs(os.path.dirname(path), exist_ok=True)
                     torch.save(
                         {
                             "velocity": velocity.state_dict(),
